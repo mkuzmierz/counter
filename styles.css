@@ -5,3 +5,28 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
   }  
+
+  body {
+    background: #476C9B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+
+  .counter {
+    margin: auto;
+  }
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+  .value {
+   font-size: 34px;
+   margin: auto;
+   padding: 20px;
+  }
